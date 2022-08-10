@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  *checker- checks to see weather its a built in function
- *
+ * @cmd: double pointer
+ * @buf: pointer
  *
  *Return: 1 if cmd excuted 0 if cmd is not executed
  */

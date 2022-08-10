@@ -2,7 +2,8 @@
 
 /**
 * test_path - checks whether path is valid
-*
+* @path: double pointer
+* @command: pointer
 * Return: path appended with command on success
 * NULL on failure
 */

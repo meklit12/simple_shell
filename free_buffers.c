@@ -2,7 +2,7 @@
 
 /**
 * free_buffers - frees buffers
-*
+* @buf: double pointer
 * Return: nothing
 */
 void free_buffers(char **buf)

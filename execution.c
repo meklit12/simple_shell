@@ -2,7 +2,8 @@
 
 /**
  * execution - executes commands entered by users
- *
+ * @cp: pointer
+ * @cmd: double pointer
  *
  * Return: 0
  */

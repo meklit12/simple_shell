@@ -2,6 +2,8 @@
 
 /**
 * handle_builtin - handles execution of builtin functions
+* @command: double pointer
+* @line: pointer
 *
 * Return: 1 if executed, 0 if not
 */

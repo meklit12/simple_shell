@@ -1,7 +1,9 @@
 #include "main.h"
 /**
 * main - carries out the read, execute then print output loop
-* 
+* @ac: integer
+* @av: double pointer
+* @envp: pointer
 * Return: 0
 */
 
