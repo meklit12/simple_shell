@@ -38,19 +38,30 @@ char *find_path(void);
 
 /* helper function for efficient free */
 void free_buffers(char **buf);
-
+/**
+ * struct builtin - is struct with two elements
+ * @env: first element of the struct
+ * @exit: second element of the struct
+ */
 struct builtin
 {
 	char *env;
 	char *exit;
 } builtin;
-
+/**
+ * struct info - is struct with two elements
+ * @final_exit: first element of the struct
+ * @ln_count: second element of the struct
+ */
 struct info
 {
 	int final_exit;
 	int ln_count;
 } info;
-
+/**
+ * struct flags - is struct with one element
+ * @interactive: element
+ */
 struct flags
 {
 	bool interactive;
