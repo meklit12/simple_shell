@@ -15,8 +15,8 @@ int main(int ac, char **av, char *envp[])
 	if (ac < 1)
 		return (-1);
 	signal(SIGINT, handle_signal);
-	while (1)
-	{
+	
+	do {
 		free_buffers(command);
 		free_buffers(paths);
 		free(pathcommand);
@@ -39,7 +39,7 @@ int main(int ac, char **av, char *envp[])
 			perror(av[0]);
 		else
 			execution(pathcommand, command);
-	}
+	} while (true);
 	if (linesize < 0 && flags.interactive)
 		write(STDERR_FILENO, "\n", 1);
 	free(line);

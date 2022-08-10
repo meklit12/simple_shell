@@ -3,7 +3,7 @@
 /**
 * free_buffers - frees buffers
 *
-* Return: no return
+* Return: nothing
 */
 void free_buffers(char **buf)
 {

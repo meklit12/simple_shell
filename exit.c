@@ -3,7 +3,7 @@
 /**
 * exit_cmd - handles the exit command
 *
-* Return: no return
+* Return: nothing
 */
 void exit_cmd(char **command, char *line)
 {
